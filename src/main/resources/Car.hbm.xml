@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<!-- This is an example of setting up a sinple entity with an xml configuration file.
+This functionality is just for show, we will be using annotations in our models to describe this.
+
+<hibernate-mapping>
+    <class name = "models.Car" table = "cars">
+
+        <meta attribute = "class-description">
+            This class contains the car details.
+        </meta>
+
+        <id name = "id" type = "int" column = "id">
+            <generator class="native"/>
+        </id>
+
+        <property name = "year" column = "year" type = "int"/>
+        <property name = "make" column = "make" type = "string"/>
+        <property name = "model" column = "model" type = "string"/>
+        <property name = "color" column = "color" type = "string"/>
+
+    </class>
+</hibernate-mapping>
+
+-->
